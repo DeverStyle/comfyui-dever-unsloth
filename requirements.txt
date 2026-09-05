@@ -1,0 +1,2 @@
+# No new dependencies.
+# Uses requests / aiohttp / PIL / numpy, already present in the ComfyUI environment.
