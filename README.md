@@ -5,6 +5,8 @@ Same 3-node simplicity as `comfyui-ollama` â€” Connectivity, Options, Generate â
 but talks to the OpenAI-compatible HTTP API Unsloth Desktop exposes
 (default `http://127.0.0.1:8888`, Bearer API key).
 
+![ComfyUI image description example](example/image_desc.png "ComfyUI image description example")
+
 ## Nodes
 
 | Node | Purpose |
