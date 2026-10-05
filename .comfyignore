@@ -1,0 +1,9 @@
+# Dev-only files — excluded from the published registry package.
+# (Syntax matches .gitignore.)
+tests/
+example/
+plans/
+.claude/
+__pycache__/
+*.pyc
+.pytest_cache/

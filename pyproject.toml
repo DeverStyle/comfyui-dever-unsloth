@@ -1,9 +1,14 @@
 [project]
-name = "comfyui-dever-unsloth"
+name = "dever-unsloth"
 description = "Ollama-style ComfyUI nodes for an Unsloth Desktop / llama.cpp OpenAI-compatible backend (Connectivity, Options, Generate)."
 version = "0.1.0"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
 dependencies = []
+
+[project.urls]
+Repository = "https://github.com/DeverStyle/comfyui-dever-unsloth"
 
 [tool.comfy]
 PublisherId = "dever"
-DisplayName = "comfyui-dever-unsloth"
+DisplayName = "Unsloth Desktop Nodes"
