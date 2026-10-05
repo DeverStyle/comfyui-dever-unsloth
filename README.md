@@ -7,6 +7,23 @@ but talks to the OpenAI-compatible HTTP API Unsloth Desktop exposes
 
 ![ComfyUI image description example](example/image_desc.png "ComfyUI image description example")
 
+## Install
+
+**Option A — ComfyUI-Manager (recommended)**
+
+1. Open the **Manager** menu in ComfyUI → **Install Custom Nodes**.
+2. Search for **Unsloth Desktop Nodes** (registry id `dever/dever-unsloth`).
+3. Click **Install**, then restart the server / refresh the UI.
+
+**Option B — Manual (clone the repo)**
+
+```bash
+cd ComfyUI/custom_nodes
+git clone https://github.com/DeverStyle/comfyui-dever-unsloth.git
+```
+
+Then restart ComfyUI. No extra Python dependencies are needed — it uses `requests`, which is already in the ComfyUI environment.
+
 ## Nodes
 
 | Node | Purpose |
